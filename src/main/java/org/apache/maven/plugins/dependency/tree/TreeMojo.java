@@ -273,6 +273,7 @@ public class TreeMojo extends AbstractMojo {
 
                 getLog().info("Wrote dependency tree to: " + outputFile);
             } else {
+                getLog().info("pwn pwn pwn pwn pwn pwn pwn pwn pwn pwn pwn pwn pwn pwn pwn");
                 DependencyUtil.log(dependencyTreeString, getLog());
             }
         } catch (DependencyGraphBuilderException | DependencyCollectorBuilderException exception) {
